@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="style.css" />
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Serif+Text:ital@0;1&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Serif+Text:ital@0;1&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+		/>
+		<title>Document</title>
+	</head>
+	<body>
+		<header><h1>Search your favourite movies here !</h1></header>
+		<!-- <header><img id="logo" src="image.png" alt=""><h1>Search your favourite movies here !</h1></header> -->
+		<main>
+			<form action="/nextPage">
+				<input type="text" id="movieName" placeholder="Search Movie" />
+				<div class="buttons">
+					<button type="submit" id="search">search</button>
+					<button type="button" id="fav">favourites</button>
+				</div>
+			</form>
+			<div class="container">
+				<img id="poster" style="display: none" />
+				<ul></ul>
+				<button id="add">Add to fav</button>
+			</div>
+		</main>
+		<footer>
+			<a href="https://github.com/Asadahmed09" target="_blank"><i class="fa-brands fa-github"></i></a>
+			<a href="https://www.linkedin.com/in/asad-ahmed-346226327/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+			<a href="https://www.instagram.com/asad_.janjua/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+			<img id="logo" src="image.png" alt="" />
+			<h3>All rights reserved</h3>
+		</footer>
+		<script src="script.js"></script>
+	</body>
+</html>
