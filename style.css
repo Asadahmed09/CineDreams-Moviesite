@@ -116,3 +116,8 @@ a i{
   margin: 5px;
   color: black;
 }
+@media (max-width : 450px){
+	.container{
+		font-size: 13px;
+	}
+}
